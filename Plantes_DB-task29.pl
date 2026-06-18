@@ -1,0 +1,6 @@
+planet(mercury, 0.39).
+planet(venus, 0.72).
+planet(earth, 1.00).
+planet(mars, 1.52).
+
+distance_from_sun(Name, Distance) :- planet(Name, Distance).
