@@ -23,6 +23,8 @@ ELSE
     RETURN best
 ```
 
+![Min Max](minmax.png)
+
 ---
 
 ## 2. 8-Queen Problem (Backtracking)
@@ -59,7 +61,7 @@ IF no queen attacks
 ELSE
     RETURN FALSE
 ```
-
+![8 Queen](8queen.png)
 ---
 
 ## 3. Water Jug Problem (BFS)
@@ -87,7 +89,7 @@ WHILE Queue is not empty
 
     Add unvisited states to Queue
 ```
-
+![Water jug](waterjug.png)
 ---
 
 ## 4. Cryptarithmetic Problem
@@ -108,7 +110,7 @@ FOR every possible digit assignment
         PRINT solution
         STOP
 ```
-
+![Cryptartiyhmetic](Cryptarithmetic.png)
 ---
 
 ## 5. Uniform Cost Search (UCS)
@@ -129,7 +131,7 @@ WHILE queue not empty
 
     Add neighbors with cumulative cost
 ```
-
+![Uniform Cost Search](uniformCost.png)
 ---
 
 ## 6. A* Search Algorithm
@@ -160,7 +162,7 @@ WHILE queue not empty
 ```
 f(n) = g(n) + h(n)
 ```
-
+![A*](Astar.png)
 ---
 
 ## 7. Greedy Best First Search
@@ -185,7 +187,7 @@ WHILE queue not empty
 ```
 f(n) = h(n)
 ```
-
+![Greedy Best First](greedyBFS.png)
 ---
 
 ## 8. Decision Tree
@@ -205,7 +207,7 @@ FOR each subset
 
 RETURN decision tree
 ```
-
+![Decision Tree](decisionTree.png)
 ---
 
 ## 9. K-Nearest Neighbors (KNN)
@@ -230,7 +232,7 @@ RETURN majority class
 ```
 d = √[(x2-x1)² + (y2-y1)²]
 ```
-
+![K-Nearest Neighbours](KNN-1.png)
 ---
 
 ## 10. Depth Limited Search (DLS)
@@ -251,7 +253,7 @@ FOR each child
 
 RETURN FALSE
 ```
-
+![Depth Limited Search](DepthFirst.png)
 ---
 
 ## 11. Iterative Deepening Search (IDS)
@@ -268,7 +270,7 @@ FOR depth = 0 to maximum depth
 
 RETURN failure
 ```
-
+![Iterative Search](iterativeSearch.png)
 ---
 
 # Complexity Summary
