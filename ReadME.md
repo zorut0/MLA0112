@@ -21,6 +21,8 @@ ELSE
         value ← MINIMAX(child, depth+1, TRUE)
         best ← MIN(best, value)
     RETURN best
+
+OUTPUT:
 ```
 
 ![Min Max](minmax.png)
@@ -45,6 +47,9 @@ FOR each row from 0 to N-1
         Remove Queen
 
 RETURN FALSE
+
+OUTPUT:
+
 ```
 
 ### Safe Check
@@ -60,6 +65,8 @@ IF no queen attacks
     RETURN TRUE
 ELSE
     RETURN FALSE
+
+OUTPUT:
 ```
 ![8 Queen](8queen.png)
 ---
@@ -88,6 +95,8 @@ WHILE Queue is not empty
         Pour B → A
 
     Add unvisited states to Queue
+
+OUTPUT:
 ```
 ![Water jug](waterjug.png)
 ---
@@ -109,6 +118,8 @@ FOR every possible digit assignment
     IF SEND + MORE = MONEY
         PRINT solution
         STOP
+
+OUTPUT:
 ```
 ![Cryptartiyhmetic](Cryptarithmetic.png)
 ---
@@ -130,8 +141,10 @@ WHILE queue not empty
     Expand neighbors
 
     Add neighbors with cumulative cost
+
+OUTPUT:
 ```
-![Uniform Cost Search](uniformCost.png)
+![Uniform Cost Search](UniformCost.png)
 ---
 
 ## 6. A* Search Algorithm
@@ -161,6 +174,8 @@ WHILE queue not empty
 
 ```
 f(n) = g(n) + h(n)
+
+OUTPUT:
 ```
 ![A*](Astar.png)
 ---
@@ -186,6 +201,8 @@ WHILE queue not empty
 
 ```
 f(n) = h(n)
+
+OUTPUT:
 ```
 ![Greedy Best First](greedyBFS.png)
 ---
@@ -206,6 +223,8 @@ FOR each subset
     BUILD_TREE(subset)
 
 RETURN decision tree
+
+OUTPUT:
 ```
 ![Decision Tree](decisionTree.png)
 ---
@@ -231,6 +250,8 @@ RETURN majority class
 
 ```
 d = √[(x2-x1)² + (y2-y1)²]
+
+OUTPUT:
 ```
 ![K-Nearest Neighbours](KNN-1.png)
 ---
@@ -252,6 +273,8 @@ FOR each child
         RETURN TRUE
 
 RETURN FALSE
+
+OUTPUT:
 ```
 ![Depth Limited Search](DepthFirst.png)
 ---
@@ -269,6 +292,8 @@ FOR depth = 0 to maximum depth
         RETURN path
 
 RETURN failure
+
+OUTPUT:
 ```
 ![Iterative Search](iterativeSearch.png)
 ---
